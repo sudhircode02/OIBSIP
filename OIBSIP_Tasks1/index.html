@@ -1,1 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The S Gym</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/logo.png" alt="">
+            <div>The S Gym</div>
+        </div>
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">BMI Calculator </a></li>
+                <li><a href="#">Location</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <input type="text" name="search" class="search" placeholder="search here">
+            <img src="img/searchlogo.png" alt="">
+        </div>
+    </header>
+    <div class="container">
+        <h1><u>Fill Up The Form To Join <i>The S Gym</i></u> </h1>
+        <form action="noaction.php"><br>
+            <div class="form">Name:
+                <input type="text" name="Name" id="" placeholder="Enter your Name here">
+            </div><br>
+            <div class="form">DOB:
+                <input type="date" name="DOB" id="" placeholder="Enter your DOB here">
+            </div><br>
+            <div class="formr">Gender:
+                male <input type="radio" name="Gender"> female <input type="radio" name="Gender">
+            </div><br>
+            <div class="form">Address:
+                <input type="text" name="Address" id="" placeholder="Enter your address here">
+            </div><br>
+            <div class="form">Contact No:
+                <input type="number" name="ContactNo" id="" placeholder="Enter your Number here">
+            </div><br>
+            <div class="form">Email:
+                <input type="text" name="Email" id="" placeholder="Enter your Email here">
+            </div><br>
+            <div class="form">Your Preferred Time:
+                <label for="gift">Gift</label>
+                <select name="Time" class="formv">
+                    <option value="Morning" selected>7am to 9am</option>
+                    <option value="Morning">8am to 10am</option>
+                    <option value="Morning">9am to 11am</option>
+                    <option value="Morning">10am to 12pm</option>
+                    <option value="Afternoon">11am to 1pm</option>
+                    <option value="Afternoon">12pm to 2pm</option>
+                    <option value="Afternoon">1pm to 3pm</option>
+                    <option value="Afternoon">2pm to 4pm</option>
+                    <option value="Afternoon">3pm to 5pm</option>
+                    <option value="Evening">4pm to 6pm</option>
+                    <option value="Evening">5pm to 7pm</option>
+                    <option value="Evening">6pm to 8pm</option>
+                    <option value="Evening">7pm to 9pm</option>
+                </select>
+            </div><br>
+
+
+            <input class="submit" type="Submit" value="Submit">
+            <input class="reset" type="reset" value="reset">
+
+        </form>
+    </div>
+
+
+
+</body>
+
+</html>
