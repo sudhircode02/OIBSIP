@@ -1,0 +1,133 @@
+
+*{
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;   
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-transform: capitalize;
+    border: none;
+    transform: all .2s ease-out;
+    text-decoration: none;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+
+.header{
+    padding: 2rem 9%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    z-index: 1;
+}
+
+.header .logo{
+    font-size: 3rem;
+    color: rgba(255, 36, 36, 0.76);
+}
+.header .logo span{
+    color: cornflowerblue;
+}
+
+.header .navbar a{
+    font-size: 2rem;
+    color: lightcoral;
+    margin-left: 2rem;
+}
+.header .navbar a:hover{
+    color: coral;
+}
+
+.main{
+    min-height: 100vh;
+    width: 100%;
+    background: url(background.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: -100px;
+}
+.content{
+    margin-top: 12%;
+    margin-left: 8%;
+}
+.content h1{
+    font-size: 55px;
+    font-weight: 100;
+    top: 250px;
+    position: relative;
+    color: coral;
+}
+.content p{
+    position: relative;
+    font-size: 70px;
+    top: 170px;
+    color: #6a7199;
+}
+.content p span{
+    color: lightcoral;
+}
+
+
+.java-img{
+    height: 78%;
+    width: 60%;
+    position: absolute;
+    right: 10px;
+    bottom: 210px;
+}
+
+
+.heading{
+    text-align: center;
+    color: #6a7199;
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    margin-bottom: 5rem;
+}
+
+.heading span{
+    text-transform: uppercase;
+    color:lightcoral ;
+}
+
+.skills .skills-container{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    padding-bottom: 2rem;
+    width: 80%;
+    position: relative;
+    left: 130px;
+}
+
+.skills .skills-container .box{
+    border: 2px solid #6a7199;
+    padding: 4.6rem ;
+    background: #fff;
+    border-radius: .5rem;
+}
+
+.skills .skills-container .box h3{
+    color: darkcyan;
+    font-size: 3rem;
+    padding: 1rem 0;
+}
+
+.skills .skills-container .box p{
+    color:#6a7199;
+    font-size: 1.6rem;
+    line-height: 1.8;
+}
